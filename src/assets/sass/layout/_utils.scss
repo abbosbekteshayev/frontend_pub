@@ -1,0 +1,47 @@
+$step: 5; // Increase by 10 each iteration
+$max-width: 100; // Up to 100
+
+@for $i from 1 through ($max-width / $step) {
+  .w-#{$i * $step} {
+    width: $i * $step * 1%; // Convert to percentage
+  }
+}
+
+.btn-icon {
+  padding: 0.4rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-gray {
+  background-color: #ccc;
+}
+
+.test-protocol-answer-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.text-gray-400 {
+  color: #ccc;
+}
+
+.text-gray-600 {
+  color: #666;
+}
+

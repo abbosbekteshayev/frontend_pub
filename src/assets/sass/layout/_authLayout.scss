@@ -1,0 +1,14 @@
+.auth-layout {
+  background: linear-gradient(45deg, rgba(148, 186, 233, 0.7), rgba(236, 221, 232, 0.5), rgba(148, 140, 231, 0.5));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .auth-container {
+    background: #fff;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
